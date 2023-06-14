@@ -1,0 +1,183 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(224, 241, 255);
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0px 0px 0px 0px;
+}
+
+.title{
+    color: rgb(215, 76, 76);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+.card1, .card2, .card3, .card4{
+    background-color: white;
+    border-radius: 8px;
+    margin: 125px 0px 0px 50px;
+    height: 410px;
+    width: 380px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+.cinta1, .cinta2, .cinta3, .cinta4{
+    display: flex;
+    flex-direction: column, 10% 10% 10% 10%;
+}
+
+.gancho1{
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    border-radius: 150px;
+    margin: 145px 0px 0px 35px;
+    height: 30px;
+    width: 10px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+.gancho2{
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    border-radius: 150px;
+    margin: 145px 0px 0px 50px;
+    height: 30px;
+    width: 10px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+.gancho3{
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    border-radius: 150px;
+    margin: 145px 0px 0px 325px;
+    height: 30px;
+    width: 10px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+.gancho4{
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    border-radius: 150px;
+    margin: 145px 0px 0px 310px;
+    height: 30px;
+    width: 10px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+
+.card5, .card6, .card7, .card8{
+    background-color: white;
+    border-radius: 8px;
+    margin: 125px 0px 0px 50px;
+    height: 410px;
+    width: 380px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+.card9, .card10, .card11, .card12{
+    background-color: white;
+    border-radius: 8px;
+    margin: 125px 0px 0px 50px;
+    height: 410px;
+    width: 380px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+.arriba{
+    border-radius: 8px 8px 0px 0px;
+    height: 160px;
+    background-color: rgb(215, 76, 76);
+}
+.enero, .febrero, .marzo, .abril{
+    padding: 0%;
+    margin: 0px 0px 0px 20px;
+    font-size: 60px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mayo, .junio, .julio, .agosto{
+    padding: 0%;
+    margin: 0px 0px 0px 20px;
+    font-size: 60px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.septiembre, .octubre, .noviembre, .diciembre{
+    padding: 0%;
+    margin: 0px 0px 0px 20px;
+    font-size: 60px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mes1, .mes2, .mes3, .mes4{
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(7, 14.2%);
+}
+.mes5, .mes6, .mes7, .mes8{
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(7, 14.2%);
+}
+.mes9, .mes10, .mes11, .mes12{
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(7, 14.2%);
+    
+}
+.lunes, .martes, .miercoles, .jueves, .viernes, .sabado, .domingo{
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.dia{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5%;
+}
+.dia:hover{
+    color: rgb(0, 238, 255);
+    
+}
+.diag{
+    color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5%;
+    
+}
+.diag:hover{
+    color: rgb(0, 204, 255);
+    
+}
+@media screen and (max-width:1800px){
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    }
+@media screen and (max-width:1700px){
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+}
+@media screen and (max-width:1270px){
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    }
+    @media screen and (max-width:860px){
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        }
+
+    
